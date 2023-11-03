@@ -1,10 +1,18 @@
 .layout {
     display: flex;
+    min-height: 50vh;
 }
 
 .layout-left {
-    width: 80%;
-    padding: 100px;
+    width: 60%;
+    padding: 115px;
+}
+
+.layout-right {
+    width: 40%;
+    background-size: cover;
+    background-image: url('../assets/asset1.svg');
+    flex-shrink: 0;
 }
 
 .brand {
@@ -17,6 +25,7 @@
 .badge {
     display: inline-block;
     padding: 5px 15px;
+    margin-bottom: 15px;
     border-radius: 100px;
     background: rgba(17, 63, 226, 0.10);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -26,4 +35,53 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.heading {
+    width: 500px;
+    color: #0A1B59;
+    font-size: 44px;
+    font-weight: 700;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.lead {
+    width: 500px;
+    color: rgba(10, 27, 89, 0.60);
+    font-size: 16px;
+    line-height: 32px; /* 200% */
+}
+
+.invite-form {
+    display: flex;
+}
+
+.invite-form input {
+    width: 100%;
+    height: 52px;
+    padding: 0px 20px;
+    border: 1px solid rgba(10, 27, 89, 0.20);
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.invite-form button {
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #113FE2;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+}
+
+.form-text {
+    color: rgba(10, 27, 89, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px; /* 200% */
 }
