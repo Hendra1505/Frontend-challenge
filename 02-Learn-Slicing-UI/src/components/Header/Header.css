@@ -1,0 +1,6 @@
+.btnContact {
+    border-radius: 100px;
+    background: var(--primary-500, linear-gradient(280deg, #00796D 0%, #38C682 100%));
+    display: flex;
+    padding: 16px 24px;
+}
